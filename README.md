@@ -42,14 +42,15 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Styled Components](https://styled-components.com/)
+ 
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+
+Also, for a more complete excercise presentation, a simple design - similar to a image gallery - was created. The idea behind this, was to put a 'Button' component (the main UI piece and the foundation of the challenge) inside a 'Card' component, in order to show its layout properties. And, each 'Card' has a brief featuring of each 'Button' to complete the layout.
+
+Although in the Challenge page, there are no instructions regarding any possible use for the 'Button' components, for the sake of completeness, every 'Button' has a small function added. 
