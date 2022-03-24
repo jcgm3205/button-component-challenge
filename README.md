@@ -37,12 +37,11 @@
 
 ![Screenshot](https://user-images.githubusercontent.com/91711789/159857739-5b8be525-052b-415a-b0aa-1641ed763e63.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+As indicated at the Challenge page, the goal was to generate a collection of reusable buttons with different design properties. I've been studying to become a Front-End Developer and to specialize in React, so in order to solve the challenge, that library was used.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+React itself allows to generate various types of reusable UI components (that's, indeed, it's main reason to exist). However, there are many complementary libraries that helps to create components much easier and integrating desing issues in a more natural way. One of these is Styled Components.
+
+Styled Components is a special library that deals with the CSS part of generating UI pieces for an app or a website. It allows to declare an HTML tag (like a <code>button</code> tag) and, immediately after, setting all the related syled properties, from the padding or the border, to pseudoclasses, pseudoelements, specific classes, indications to possible tag's children, etc.          
 
 ### Built With
 
@@ -77,5 +76,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Email [@your-twitter](mailto:jcglezmarin@gmail.com)
+- GitHub [@jcgm3205](https://github.com/jcgm3205)
+- Email [jcglezmarin@gmail.com](mailto:jcglezmarin@gmail.com)
