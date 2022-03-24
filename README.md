@@ -53,7 +53,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build a set of UI components (specifically, a series of buttons ) to complete the given user stories. These buttons should had some particular layout properties and to be generated using a library like Vue. For this case, React was used.
 
 Also, for a more complete excercise presentation, a simple design - similar to a image gallery - was created. The idea behind this, was to put a 'Button' component (the main UI piece and the foundation of the challenge) inside a 'Card' component, in order to show its layout properties. And, each 'Card' has a brief featuring of each 'Button' to complete the layout.
 
