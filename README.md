@@ -10,6 +10,10 @@
       Solution (at GithHub Pages)
     </a>
     <span> | </span>
+    <a href="https://button-component-challenge.onrender.com/">
+      Solution (at Render)
+    </a> 
+    <span> | </span>
     <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">
       Challenge
     </a>
