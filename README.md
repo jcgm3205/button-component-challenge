@@ -29,7 +29,7 @@
 - [Features](#features)
 - [How to use](#how-to-use)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
@@ -57,4 +57,25 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 Also, for a more complete excercise presentation, a simple design - similar to a image gallery - was created. The idea behind this, was to put a 'Button' component (the main UI piece and the foundation of the challenge) inside a 'Card' component, in order to show its layout properties. And, each 'Card' includes a brief featuring of each 'Button' to complete the layout.
 
-Although in the Challenge page, there are no instructions regarding any possible utility for the 'Button' components, for the sake of completeness, every 'Button' has a small function added. When a 'Button' (except those containing the "Disabled" text) is clicked, an alert box appears, showing a legend.  
+Although in the Challenge page, there are no instructions regarding any possible utility for the 'Button' components, for the sake of completeness, every 'Button' has a small function added. When a 'Button' (except those containing the "Disabled" text) is clicked, an alert box appears, showing a legend.
+
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+# Clone this repository
+$ git clone https://github.com/jcgm3205/button-component-challenge
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+
+
+## Contact
+
+- Website [your-website.com](https://{your-web-site-link})
+- GitHub [@your-username](https://{github.com/your-usermame})
+- Twitter [@your-twitter](https://{twitter.com/your-username})
