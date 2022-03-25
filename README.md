@@ -51,6 +51,8 @@ Before going any further, it's necessary to speak about the Figma design. For th
 
 That being said, the "variant=outline" and the "variant=text" button were coded as "descendants" of "NewButton", where only changes the background color, the text color and the border properties. So, we get "OutlineButton" and "TextButton" (the second and third buttons of the gallery, respectively).  
 
+Speaking about the properties "background-color" and "color", these were coded at "NewButton" using the JS [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) along with their "props". As a result, the "primary", "secondary" and "danger" variants (shown as the last buttons of the Figma file ) can be created just by calling a "NewButton" with a boolean property of "props", namely, "primary", "secondary" or "danger". In other words, four different buttons at the price of one. Yay!  
+
 
 
 ### Built With
