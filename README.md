@@ -47,7 +47,9 @@ Furthermore, one of the additional advantages of the components created with SC,
 
 Taking into account how SC works, our first "Button" component created (labeled as "NewButton" in the "ButtonComponents.js" file) already has many of the properties needed for the solution of the challenge (font famliy, background color, border, box shadow, etc. ) and it appears as the first button of the gallery. 
 
-Before going any further, it's necessary to speak about the Figma design. For this challenge, I decided to create the buttons from the perspective of generating as few components as possible, and to create them in the easiest way possible. So, these buttons are not "pixel-perfect" ones. Although the  dimensions of the final buttons are, in deed, very close to those at the Figma file.       
+Before going any further, it's necessary to speak about the Figma design. For this challenge, I decided to create the buttons from the perspective of generating as few components as possible, and to create them in the easiest way possible. So, these buttons are not "pixel-perfect" ones. Although the  dimensions of the final buttons are, in deed, very close to those at the Figma file.      
+
+That being said, the "variant=outline" and the "variant=text" button were coded as "descendants" of "NewButton", where only changes the background color, the text color and the border properties. So, we get "OutlineButton" and "TextButton" (the second and third buttons of the gallery, respectively).  
 
 
 
