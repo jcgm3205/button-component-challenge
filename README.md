@@ -45,7 +45,7 @@ Styled Components (SC) is a special library that deals with the CSS part of gene
 
 Furthermore, one of the additional advantages of the components created with SC, is the easy way to code new ones from those already generated, adjusting the styles of the "children" on demand.
 
-Taking into account how SC works, our first "Button" component created (labeled as "NewButton" in the "ButtonComponents.js" file) already has many of the properties needed for the solution of the challenge (font famliy, background color, border, box shadow, etc. ) and it appears as the first button of the gallery. 
+Taking into account how SC works, our first "Button" component created (labeled as "NewButton" in the "ButtonComponents.js" file) already has many of the properties needed for the solution of the challenge (font famliy, background color, border, box shadow, etc. ) and it appears as the first button of the gallery. Also, includes the behavior established with ":hover" and ":focus" pseudoclasses and an interesting one, previously unknown to me: the pseudoclass "disabled", related with the attribute of the same name.  
 
 Before going any further, it's necessary to speak about the Figma design. For this challenge, I decided to create the buttons from the perspective of generating as few components as possible, and to create them in the easiest way possible. So, these buttons are not "pixel-perfect" ones. Although the  dimensions of the final buttons are, in deed, very close to those at the Figma file.      
 
