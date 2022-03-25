@@ -20,7 +20,7 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
+
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@
 - [Contact](#contact)
 
 
-<!-- OVERVIEW -->
+
 
 ## Overview
 
@@ -41,14 +41,22 @@ As indicated at the Challenge page, the goal was to generate a collection of reu
 
 React itself allows to generate various types of reusable UI components (that's, indeed, it's main reason to exist). However, there are many complementary libraries that helps to create components much easier and integrating desing issues in a more natural way. One of these is Styled Components.
 
-Styled Components is a special library that deals with the CSS part of generating UI pieces for an app or a website. It allows to declare an HTML tag (like a <code>button</code> tag) and, immediately after, setting all the related style properties, from the padding or the border, to pseudoclasses, pseudoelements, specific classes, indications to possible tag's children, etc. For more information, you can check it's official website (link below).          
+Styled Components (SC) is a special library that deals with the CSS part of generating UI pieces for an app or a website. It allows to declare an HTML tag (like a <code>button</code> tag) and, immediately after, setting all the related style properties, from the padding or the border, to pseudoclasses, pseudoelements, specific classes, indications to possible tag's children, etc. For more information, you can check it's official website (link below).
+
+Furthermore, one of the additional advantages of the components created with SC, is the easy way to code new ones from those already generated, adjusting the styles of the "children" on demand.
+
+Taking into account how SC works, our first "Button" component created (labeled as "NewButton" in the "ButtonComponents.js" file) already has many of the properties needed for the solution of the challenge (font famliy, background color, border, box shadow, etc. ) and it appears as the first button of the gallery. 
+
+Before going any further, it's necessary to speak about the Figma design. For this challenge, I decided to create the buttons from the perspective of generating as few components as possible, and to create them in the easiest way possible. So, these buttons are not "pixel-perfect" ones. Although the  dimensions of the final buttons are, in deed, very close to those at the Figma file.       
+
+
 
 ### Built With
-
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
  
+
 
 ## Features
 
