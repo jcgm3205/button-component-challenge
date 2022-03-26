@@ -93,5 +93,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@jcgm3205](https://github.com/jcgm3205)
-- Email [jcglezmarin@gmail.com](mailto:jcglezmarin@gmail.com)
+- GitHub:  [@jcgm3205](https://github.com/jcgm3205)
+- Email:  [jcglezmarin@gmail.com](mailto:jcglezmarin@gmail.com)
