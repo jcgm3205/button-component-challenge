@@ -63,7 +63,7 @@ The case of the "disabled" buttons was resolved using a "NewButton" and a "TextB
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [React Icons](https://react-icons.github.io/react-icons)(for the "Shoping car" icon)
+- [React Icons](https://react-icons.github.io/react-icons) (for the "Shoping car" icon)
  
 
 
