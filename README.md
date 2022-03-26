@@ -53,7 +53,9 @@ That being said, the "variant=outline" and the "variant=text" button were coded 
 
 Speaking about the properties "background-color" and "color", these were coded at "NewButton" using the JS [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) along with their "props". As a result, the "primary", "secondary" and "danger" variants (shown as the last buttons of the Figma file ) can be created just by calling a "NewButton" with a boolean property of "props", namely, "primary", "secondary" or "danger". In other words, four different buttons at the price of one. Yay! 
 
-The fourth button of the gallery, was originally meant to be a "grandson" of "NewButton" (as it is possible to generate 'descendants' of the 'descendants' of a SC component), but instead, a call to a "NewButton" was made, with the props key "primary" active and acting directly at the props of the component, specifically at the "style" Object, to set their "box-shadow" property to 'none'. I considered this the quickest way to accomplish the goal at the second User-Story.    
+The fourth button of the gallery, was originally meant to be a "grandson" of "NewButton" (as it is possible to generate 'descendants' of the 'descendants' of a SC component), but instead, a call to a "NewButton" was made, with the props key "primary" active and acting directly at the props of the component, specifically at the "style" Object, to set their "box-shadow" property to 'none'. I considered this the quickest way to accomplish the goal at the second User-Story. 
+
+The case of the "disabled" buttons was resolved using a "NewButton" and a "TextButton" without any additional modification, and by adding the attribute "disabled" on each one. SC allows to use the attributes (global and specific ones) when the component is called, like the "href" for a <code>a</code> element or the "placeholder" attribute for a <code>input</code> tag. So, when the "NewButton" was coded, its behavior when "disabled" was taken into consideration.   
 
 
 
@@ -61,6 +63,7 @@ The fourth button of the gallery, was originally meant to be a "grandson" of "Ne
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
+- [React Icons](https://react-icons.github.io/react-icons)(for the "Shoping car" icon)
  
 
 
