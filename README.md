@@ -51,7 +51,9 @@ Before going any further, it's necessary to speak about the Figma design. For th
 
 That being said, the "variant=outline" and the "variant=text" button were coded as "descendants" of "NewButton", where only changes the background color, the text color and the border properties. So, we get "OutlineButton" and "TextButton" (the second and third buttons of the gallery, respectively).  
 
-Speaking about the properties "background-color" and "color", these were coded at "NewButton" using the JS [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) along with their "props". As a result, the "primary", "secondary" and "danger" variants (shown as the last buttons of the Figma file ) can be created just by calling a "NewButton" with a boolean property of "props", namely, "primary", "secondary" or "danger". In other words, four different buttons at the price of one. Yay!  
+Speaking about the properties "background-color" and "color", these were coded at "NewButton" using the JS [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) along with their "props". As a result, the "primary", "secondary" and "danger" variants (shown as the last buttons of the Figma file ) can be created just by calling a "NewButton" with a boolean property of "props", namely, "primary", "secondary" or "danger". In other words, four different buttons at the price of one. Yay! 
+
+The fourth button of the gallery, was originally meant to be a "grandson" of "NewButton" (as it is possible to generate 'descendants' of the 'descendants' of a SC component), but instead, a call to a "NewButton" was made, with the props key "primary" active and acting directly at the props of the component, specifically at the "style" Object, to set their "box-shadow" property to 'none'. I considered this the quickest way to accomplish the goal at the second User-Story.    
 
 
 
