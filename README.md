@@ -57,7 +57,11 @@ The fourth button of the gallery, was originally meant to be a "grandson" of "Ne
 
 The case of the "disabled" buttons was resolved using a "NewButton" and a "TextButton" without any additional modification, and by adding the attribute "disabled" on each one. SC allows to use the attributes (global and specific ones) when the component is called, like the "href" for a <code>a</code> element or the "placeholder" attribute for a <code>input</code> tag. So, when the "NewButton" was coded, its behavior when "disabled" was taken into consideration. 
 
-The next pair of buttons, those with the "Shoping car" icon, were generated as one descendant of "NewButton" (called "ShopButton") called twice. But, in the case of "ShopButton", an exception was made and the dimensions of the button were stated when coded, in order to use "flexbox" inside the component and achieve the required layout. The position of the icon can be modified, by changing the order of writing the icon itself (as a component) and the legend of the button, taken both as direct children of "NewButton".      
+The next pair of buttons, those with the "Shoping car" icon, were generated as one descendant of "NewButton" (called "ShopButton") called twice. But, in the case of "ShopButton", an exception was made and the dimensions of the button were stated when coded, in order to use "flexbox" inside the component and achieve the required layout. The position of the icon can be modified, by changing the order of writing the icon itself (as a component) and the legend of the button, taken both as direct children of "NewButton". 
+
+Finally, at the challege page, it was requested to create variant buttons with the possibility of having different sizes. Namely, to have a "small" button, a "medium" size one and a "large" one. The "medium" size button is, in fact, "NewButton". Whereas the "small" the "large" buttons were created as descendants of "NewButton" (and named "SmallButton" and "LargeButton", respectively), where the padding was changed in each case. Ironically, an alternative to this could be, using a ternary operator along with the padding and to establish a condition similar to the "primary" props key. So, the need of creating more descendants is avoided, at the cost of using another conditional inside "NewButton".
+
+And, that's it. Thank you so much if you read until this point.  =)
 
 
 
