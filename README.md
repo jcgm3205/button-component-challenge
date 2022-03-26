@@ -41,7 +41,7 @@ As indicated at the Challenge page, the goal was to generate a collection of reu
 
 React itself allows to generate various types of reusable UI components (that's, indeed, it's main reason to exist). However, there are many complementary libraries that helps to create components much easier and integrating desing issues in a more natural way. One of these is Styled Components.
 
-Styled Components (SC) is a special library that deals with the CSS part of generating UI pieces for an app or a website. It allows to declare an HTML tag (like a <code>button</code> tag) and, immediately after, setting all the related style properties, from the padding or the border, to pseudoclasses, pseudoelements, specific classes, indications to possible tag's children, etc. For more information, you can check it's official website (link below).
+Styled Components (SC) is a special library that deals with the CSS part of generating UI pieces for an app or a website. It allows to generate HTML elements (like a <code>button</code>) and, immediately after, setting all the related style properties, from the padding or the border, to pseudoclasses, pseudoelements, specific classes, indications to possible tag's children, etc. For more information, you can check it's official website (link below, at the "Built with" section).
 
 Furthermore, one of the additional advantages of the components created with SC, is the easy way to code new ones from those already generated, adjusting the styles of the "children" on demand.
 
