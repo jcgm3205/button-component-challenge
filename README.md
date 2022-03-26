@@ -78,7 +78,7 @@ Although in the Challenge page, there are no instructions regarding any possible
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line, you need to type:
 
 ```bash
 # Clone this repository
@@ -86,10 +86,27 @@ $ git clone https://github.com/jcgm3205/button-component-challenge.git
 
 # Install dependencies
 $ npm install
+```
 
-# Run the app
+Then, once the repository is in your computer, you'll need to install "Styled Componens". So, from your command line, you need to type:
+
+```bash
+$ npm install --save styled-components
+```
+
+Lastly, to use "React Icons", you'll need to type:
+
+```bash
+$ npm install react-icons --save
+```
+
+And, that's it. You can then run the gallery using the following command:
+
+```bash
 $ npm start
 ```
+
+
 
 ## Contact
 
