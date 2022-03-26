@@ -55,7 +55,9 @@ Speaking about the properties "background-color" and "color", these were coded a
 
 The fourth button of the gallery, was originally meant to be a "grandson" of "NewButton" (as it is possible to generate 'descendants' of the 'descendants' of a SC component), but instead, a call to a "NewButton" was made, with the props key "primary" active and acting directly at the props of the component, specifically at the "style" Object, to set their "box-shadow" property to 'none'. I considered this the quickest way to accomplish the goal at the second User-Story. 
 
-The case of the "disabled" buttons was resolved using a "NewButton" and a "TextButton" without any additional modification, and by adding the attribute "disabled" on each one. SC allows to use the attributes (global and specific ones) when the component is called, like the "href" for a <code>a</code> element or the "placeholder" attribute for a <code>input</code> tag. So, when the "NewButton" was coded, its behavior when "disabled" was taken into consideration.   
+The case of the "disabled" buttons was resolved using a "NewButton" and a "TextButton" without any additional modification, and by adding the attribute "disabled" on each one. SC allows to use the attributes (global and specific ones) when the component is called, like the "href" for a <code>a</code> element or the "placeholder" attribute for a <code>input</code> tag. So, when the "NewButton" was coded, its behavior when "disabled" was taken into consideration. 
+
+The next pair of buttons, those with the "Shoping car" icon, were generated as one descendant of "NewButton" (called "ShopButton") called twice. But, in the case of "ShopButton", an exception was made and the dimensions of the button were stated when coded, in order to use "flexbox" inside the component and achieve the required layout. The position of the icon can be modified, by changing the order of writing the icon itself (as a component) and the legend of the button, taken both as direct children of "NewButton".      
 
 
 
